@@ -1,0 +1,27 @@
+{
+  "model": "mtcformer",
+  "horizon": 90,
+  "seed": 1,
+  "mse": 322859.625,
+  "mae": 427.06488037109375,
+  "best_val_loss": 0.7713889628648758,
+  "input_len": 90,
+  "feature_cols": [
+    "global_active_power",
+    "global_reactive_power",
+    "sub_metering_1",
+    "sub_metering_2",
+    "sub_metering_3",
+    "voltage",
+    "global_intensity",
+    "rr",
+    "nbjrr1",
+    "nbjrr5",
+    "nbjrr10",
+    "nbjbrou",
+    "sub_metering_remainder"
+  ],
+  "num_train_samples": 682,
+  "num_val_samples": 127,
+  "num_test_samples": 276
+}

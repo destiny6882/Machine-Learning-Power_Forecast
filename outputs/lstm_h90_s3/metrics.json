@@ -1,0 +1,27 @@
+{
+  "model": "lstm",
+  "horizon": 90,
+  "seed": 3,
+  "mse": 307281.78125,
+  "mae": 432.8094177246094,
+  "best_val_loss": 0.9532535150647163,
+  "input_len": 90,
+  "feature_cols": [
+    "global_active_power",
+    "global_reactive_power",
+    "sub_metering_1",
+    "sub_metering_2",
+    "sub_metering_3",
+    "voltage",
+    "global_intensity",
+    "rr",
+    "nbjrr1",
+    "nbjrr5",
+    "nbjrr10",
+    "nbjbrou",
+    "sub_metering_remainder"
+  ],
+  "num_train_samples": 682,
+  "num_val_samples": 127,
+  "num_test_samples": 276
+}
